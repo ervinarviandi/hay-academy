@@ -1,0 +1,586 @@
+/* navbar */
+
+body {
+  background-color: rgb(246, 241, 250);
+  /* height: 6000px; */
+}
+
+.navbar {
+  background-color: blueviolet;
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.11);
+}
+
+.navbar i {
+  margin-right: 20px;
+  font-size: 24px;
+  text-decoration: none;
+  color: #ffca2c;
+}
+
+.navbar-brand {
+  font-family: "poppins", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.nav-link {
+  margin-right: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* jumbotron */
+.jumbotron {
+  font-family: "poppins", sans-serif;
+  text-align: center;
+  background: url(img/hero-pattern-bg.png);
+  height: 100vh;
+  background-color: blueviolet;
+  color: white;
+}
+
+.jumbotron h1 {
+  margin-top: 120px;
+  font-weight: 700;
+  font-size: 42px;
+}
+
+.jumbotron h1 span {
+  color: rgb(252, 149, 183);
+}
+
+.jumbotron p {
+  font-weight: 200;
+  margin-top: 30px;
+}
+
+.jumbotron a {
+  margin-top: 20px;
+}
+
+.jumbotron .button {
+  background-color: white;
+}
+
+.jumbotron img {
+  display: none;
+  margin-top: 50px;
+}
+
+/* card panjang */
+.card-panjang {
+  font-family: "poppins", sans-serif;
+  background-color: #ffca2c;
+  margin-top: 150px;
+  margin-bottom: 225px;
+  border-radius: 40px;
+  text-align: center;
+  padding: 40px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.11);
+}
+
+.card-panjang h2 {
+  color: blueviolet;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.card-panjang p {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 45px;
+}
+
+/* belajar */
+.belajar {
+  font-family: "poppins", sans-serif;
+}
+
+.belajar .bi {
+  font-size: 32px;
+  color: blueviolet;
+}
+
+.workingspace {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.belajar h2 {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 42px;
+}
+
+.belajar h3 {
+  /* color: #ffca2c; */
+  color: blueviolet;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 40px;
+}
+
+.belajar p {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.belajar img {
+  width: 300px;
+}
+
+/* featured */
+
+.featured {
+  font-family: "poppins", sans-serif;
+}
+
+.featured .tombol-allstories {
+  /* background-color: #e5e9f2; */
+  background-color: rgb(234, 214, 253);
+  font-size: 16px;
+  border-radius: 40px;
+  float: right;
+  font-weight: 500;
+}
+
+.featured .tombol-allstories:hover {
+  box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.11);
+}
+
+.featured .text-top {
+  margin-top: 50px;
+  font-weight: 700;
+}
+
+.featured .header-text {
+  font-size: 24px;
+  color: blueviolet;
+  font-weight: 500;
+}
+
+.featured .card {
+  border-radius: 40px;
+  border: none;
+  margin-top: 70px;
+  cursor: pointer;
+  transition: all 1s ease;
+  transition-delay: 0.4s;
+}
+
+.featured .card:hover {
+  /* background-color: #e5e9f2; */
+  background-color: #e1c9f5;
+  transition: 1s;
+  color: blueviolet;
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.12);
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+.featured .card img {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 40px;
+}
+
+.featured .card h2 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.featured .card h4 {
+  /* text-decoration: underline; */
+  color: #f8828f;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.hanbook {
+  margin-top: 90px;
+  font-family: "poppins" sans-serif;
+  text-align: center;
+}
+
+.hanbook img {
+  width: 300px;
+}
+
+.hanbook h1 {
+  font-weight: 700;
+}
+
+.hanbook h2 {
+  margin-top: 70px;
+  /* color: rgb(116, 238, 197); */
+  color: blueviolet;
+}
+
+.hanbook p {
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 50px;
+}
+
+.hanbook a {
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 35px;
+}
+
+.hanbook .tombol {
+  padding: 11px 42px;
+}
+
+.stories {
+  font-family: "poppins", sans-serif;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.stories .text-top {
+  margin-top: 90px;
+  font-weight: 700;
+}
+
+.stories .header-text {
+  font-size: 24px;
+  color: blueviolet;
+  font-weight: 500;
+}
+
+.stories .card {
+  border: none;
+  margin-top: 70px;
+  border-radius: 25px;
+}
+
+.stories .card img {
+  padding: 10px;
+}
+
+.stories .card h2 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.stories .tombol-allstories {
+  /* background-color: #e5e9f2; */
+  background-color: rgb(234, 214, 253);
+  font-size: 16px;
+  border-radius: 40px;
+  float: right;
+  font-weight: 500;
+}
+
+.stories .tombol-allstories:hover {
+  box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.11);
+}
+
+.stories .card h4 {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #acacac;
+}
+
+.stories .card p {
+  padding-top: 20px;
+}
+
+/* promo event */
+
+.promo-event {
+  font-family: "poppins", sans-serif;
+}
+.promo-event .card {
+  background-color: blueviolet;
+  color: white;
+  border-radius: 40px;
+  margin: 50px auto;
+}
+
+.promo-event h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 16px;
+}
+
+.promo-event .bi {
+  text-align: left;
+  margin: 20px;
+}
+
+hr {
+  background-color: #ffca2c;
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.promo-event span {
+  color: #ffca2c;
+}
+
+.promo-event h1 {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 42px;
+}
+
+.promo-event h5 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.promo-event .content {
+  margin-top: 30px;
+}
+
+.promo-event .tombol {
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: 500;
+  padding: 11px 42px;
+}
+
+/* Utility */
+.tombol {
+  background-color: #ffca2c;
+  border-radius: 40px;
+  color: white;
+  transition: all 1s ease-in;
+  transition-delay: 1ms;
+}
+
+.tombol:hover {
+  background-color: #f8828f;
+  transition: width 1s;
+  color: white;
+}
+
+.button {
+  border-radius: 40px;
+  border: 3px solid #ffca2c;
+  color: white;
+}
+
+.button:hover {
+  color: white;
+}
+
+.star {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 90%;
+  padding-top: 20px;
+}
+
+.checked {
+  color: orange;
+}
+
+/* question */
+.question {
+  font-family: "poppins", sans-serif;
+  background-color: blueviolet;
+  background-image: url(img/paterns.png);
+}
+
+.question .text-header {
+  color: white;
+  margin-bottom: 50px;
+}
+
+.question h2 {
+  margin-top: 20px;
+  font-weight: 700;
+  color: #ffca2c;
+}
+
+.question p {
+  color: white;
+}
+
+/* creative */
+.creative {
+  font-family: "poppins", sans-serif;
+  /* background-color: #e5e9f2; */
+  background-color: rgb(234, 214, 253);
+  margin-top: 180px;
+  margin-bottom: 225px;
+  border-radius: 40px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.11);
+}
+
+.creative h2 {
+  font-size: 35px;
+  line-height: 46px;
+  font-weight: 700;
+  padding-top: 50px;
+}
+
+.creative p {
+  font-weight: 500;
+  line-height: 32px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.creative span {
+  color: blueviolet;
+}
+
+.creative .tombol {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  padding: 15px 30px;
+}
+
+/* About */
+
+.about {
+  font-family: "poppins", sans-serif;
+  color: white;
+  background-color: blueviolet;
+  margin-top: 50px;
+}
+
+.about h2 {
+  color: #ffca2c;
+  margin-top: 50px;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.about a {
+  text-decoration: none;
+  /* color: black; */
+}
+
+.about li {
+  list-style: none;
+}
+.about p {
+  font-size: 13px;
+  line-height: 22px;
+  font-weight: 500;
+}
+
+.about a {
+  font-size: 13px;
+  line-height: 22px;
+  font-weight: 500;
+}
+
+.about a {
+  color: rgb(255, 255, 255);
+  z-index: 5;
+}
+
+.about a:hover {
+  color: #ffca2c;
+}
+
+form .form-control {
+  border: radius 40px;
+}
+
+footer {
+  text-align: center;
+  /* margin-top: 70px; */
+  background-color: blueviolet;
+  padding: 30px;
+  color: white;
+}
+
+.form-group .klik {
+  margin-top: 10px;
+  border-radius: 40px;
+  color: white;
+}
+.form-group .klik:hover {
+  color: white;
+}
+
+.medsos {
+  text-align: center;
+  gap: 5px;
+  display: flex;
+}
+
+.medsos li {
+  display: flex;
+}
+
+@media (min-width: 992px) {
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #ffca2c;
+    padding-bottom: 5px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: -8px;
+  }
+
+  .jumbotron {
+    text-align: left;
+  }
+  .jumbotron h1 {
+    font-size: 52px;
+  }
+
+  .jumbotron img {
+    display: block;
+  }
+
+  .hanbook {
+    text-align: left;
+  }
+
+  .hanbook img {
+    /* max-width: 500px; */
+    width: 500px;
+  }
+
+  /* craetive */
+
+  .creative {
+    text-align: left;
+  }
+  /* Belajar */
+  /* workingspace */
+
+  .belajar h2 {
+    text-align: left;
+  }
+
+  /* belajar */
+  .belajar img {
+    width: 500px;
+  }
+
+  .workingspace {
+    margin-top: 40px;
+    text-align: center;
+  }
+}
