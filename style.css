@@ -391,6 +391,17 @@ hr {
   transform: translate(-50%, -50%);
   font-size: 90%;
   padding-top: 20px;
+  display: flex;
+  margin-top: 30px;
+  font-size: 17px;
+}
+
+.star p {
+  /* display: flex; */
+  margin-right: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
 }
 
 .checked {
