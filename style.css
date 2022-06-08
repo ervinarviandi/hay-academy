@@ -95,13 +95,13 @@ body {
 .card-panjang h2 {
   color: blueviolet;
   font-weight: 700;
-  font-size: 40px;
-  line-height: 40px;
+  font-size: 24px;
+  line-height: 32px;
 }
 
 .card-panjang p {
   color: white;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 45px;
 }
@@ -481,6 +481,8 @@ hr {
 
 .about {
   font-family: "poppins", sans-serif;
+  background: url(img/footer-pattern-bg.png);
+  background-size: cover;
   color: white;
   background-color: blueviolet;
   margin-top: 50px;
@@ -602,6 +604,22 @@ footer {
   .jumbotron img {
     display: block;
   }
+
+  /* card panjang */
+  .card-panjang h2 {
+    color: blueviolet;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .card-panjang p {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 45px;
+  }
+  /* akhir card panjang */
 
   .hanbook {
     text-align: left;
