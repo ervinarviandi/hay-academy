@@ -28,11 +28,10 @@ body {
 
 .navbar .icon {
   font-size: 24px;
-  margin: 50px;
 }
 
 .navbar .icons {
-  display: none;
+  display: none !important;
 }
 
 .nav-link {
@@ -571,6 +570,7 @@ footer {
 
   .navbar .icons {
     font-size: 24px;
+    display: block;
   }
 
   .navbar .icon {
