@@ -454,8 +454,8 @@ hr {
 }
 
 .creative h2 {
-  font-size: 35px;
-  line-height: 46px;
+  font-size: 24px;
+  line-height: 32px;
   font-weight: 700;
   padding-top: 50px;
 }
@@ -634,6 +634,20 @@ footer {
 
   .creative {
     text-align: left;
+  }
+
+  .creative h2 {
+    font-size: 35px;
+    line-height: 46px;
+    font-weight: 700;
+    padding-top: 50px;
+  }
+
+  .creative p {
+    font-weight: 500;
+    line-height: 32px;
+    font-size: 16px;
+    margin-top: 20px;
   }
   /* Belajar */
   /* workingspace */
