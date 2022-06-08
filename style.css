@@ -22,6 +22,19 @@ body {
   font-size: 25px;
 }
 
+.navbar-brand a {
+  margin: 20px;
+}
+
+.navbar .icon {
+  font-size: 24px;
+  margin: 50px;
+}
+
+.navbar .icons {
+  display: none;
+}
+
 .nav-link {
   margin-right: 20px;
   font-weight: 500;
@@ -555,6 +568,16 @@ footer {
     font-weight: 600;
     font-size: 32px;
   }
+
+  .navbar .icons {
+    font-size: 24px;
+    display: block;
+  }
+
+  .navbar .icon {
+    display: none;
+  }
+
   .nav-link:hover::after {
     content: "";
     display: block;
