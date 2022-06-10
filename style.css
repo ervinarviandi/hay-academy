@@ -444,6 +444,9 @@ hr {
 
 .question p {
   color: white;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
 }
 
 /* creative */
@@ -676,6 +679,14 @@ footer {
   .workingspace {
     margin-top: 40px;
     text-align: center;
+  }
+
+  /* question */
+  .question p {
+    color: white;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
   }
 
   /* about */
