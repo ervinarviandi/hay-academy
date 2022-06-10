@@ -23,7 +23,7 @@ body {
 }
 
 .navbar-brand img {
-  width: 50px;
+  width: 20%;
 }
 
 .navbar-brand a {
@@ -579,7 +579,7 @@ footer {
   }
 
   .navbar-brand img {
-    width: 230px;
+    width: 50%;
   }
 
   .navbar .icons {
