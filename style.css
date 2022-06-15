@@ -26,17 +26,17 @@ body {
   width: 150px;
 } */
 
-.navbar-brand a {
+/* .navbar-brand a {
   margin: 20px;
-}
+} */
 
 .navbar .icon {
   font-size: 24px;
 }
 
-.navbar .icons {
+/* .navbar .icons {
   display: none !important;
-}
+} */
 
 .nav-link {
   margin-right: 20px;
@@ -587,10 +587,10 @@ footer {
     width: 230px;
   } */
 
-  .navbar .icons {
+  /* .navbar .icons {
     font-size: 24px;
     display: block;
-  }
+  } */
 
   .navbar .icon {
     display: none;
