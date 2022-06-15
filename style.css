@@ -21,10 +21,10 @@ body {
   font-weight: 600;
   font-size: 25px;
 }
-
+/* 
 .navbar-brand img {
   width: 150px;
-}
+} */
 
 .navbar-brand a {
   margin: 20px;
@@ -583,9 +583,9 @@ footer {
     font-size: 32px;
   }
 
-  .navbar-brand img {
+  /* .navbar-brand img {
     width: 230px;
-  }
+  } */
 
   .navbar .icons {
     font-size: 24px;
